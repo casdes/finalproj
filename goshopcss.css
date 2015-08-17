@@ -1,0 +1,83 @@
+.name
+{
+    text-align: center;
+    margin: 0 auto;
+    margin: auto;
+    left:0; right:0;
+    top:0; bottom:0;
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    border: #000 solid 1px;
+    background: #82713F;
+    text-align: center;
+   
+
+}
+
+.name2
+{
+    text-align: center;
+    margin: 0 auto;
+    margin: auto;
+    left:0; right:0;
+    top:0; bottom:0;
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    border: #000 solid 1px;
+    background:white;
+    text-align: center;
+   
+
+}
+h1{
+    padding-top: 300px;
+    color:white;
+}
+
+#cato{
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+#company{
+    padding-top: 100px;
+    padding-right: 40px;
+}
+
+#rand{
+    padding-top: 50px;
+}
+#start{
+    padding-top: 150px;
+    padding-left: 30px;
+}
+
+#text{
+    padding-top: 50px;
+    color:blue;
+}
+
+#arrow{
+    padding-left: 350px;
+    padding-top: 350px;
+}
+
+.column-center1{
+         /*display: inline-block;*/
+         text-align: center;
+         float: left;
+    }
+
+.column-right1{ 
+        text-align: center;
+        float: right;
+    
+    }
+
+.column-center2{
+         display: inline-block;
+         text-align: center;
+    }
+

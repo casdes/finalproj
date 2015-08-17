@@ -1,0 +1,221 @@
+<html>
+<head>
+	<link href = "goshopcss.css" rel = "stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+		<script src="sample.js"></script>
+		<link href = "goshop.html" >
+</head>
+<body>
+	<div data-role="page" id="new">
+			<div class="name">
+				<div id="text">
+					<h2>What is your name?</h2>
+				    <input type="text" id="Search_Text" size="40" />
+				    <!--<form action="brand">-->
+					    <input type="submit" value="Submit" 
+					    onclick = "buttonsumbit()">
+					<!--</form>-->
+					<div id="arrow">
+						<a href="#brand"> <img src="arrow.png"></a> 
+					</div>
+				     <!-- <onclick= var screenname="alert(document.getElementById('Search_Text').value)" /> -->
+				</div>
+			</div>
+	</div>
+	<div data-role="page" id="brand">
+		<div class="name">
+			<div id="text">
+				<h6><font size="20" color="black">Pick One</font><h6>
+				<div class="column-center1">
+					<div id="cato">
+						<a href="#items23">
+							<img src="categories.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="column-right1">
+					<div id="company">
+						<a href="#namebrand">
+							<img src="brands.jpg">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="namebrand">
+			<div class="name">
+				<div id="text">
+					<h2>Pick a brand</h2>
+
+					<div class="column-center1" >
+						<div id="forever">
+							<a href="#foreverquestion">
+								<img src="forever.jpg" />
+							</a>
+							<p>
+								Forever 21
+							</p>
+						</div>
+
+						<div id="coach">
+							<img src="coach.jpg" />
+							<p>
+								Coach
+							</p>
+						</div>
+
+						<div id="patagonia">
+							<img src="patagonia.jpg" />
+							<p>
+								Patagonia
+							</p>
+						</div>
+
+						<div id="sperry">
+							<img src="sperry.jpg" />
+							<p>
+								Sperry Top-Sider
+							</p>
+						</div>
+
+					</div>
+
+					<div class="column-center2">
+						<div id="longchamp">
+							<img src="longchamp.jpg" />
+							<p>
+								Long Champ
+							</p>
+						</div>
+
+						<div id="urban">
+							<img src="urban.jpg" />
+							<p>
+								Urban Outfitters
+							</p>
+						</div>
+
+						<div id="brandy">
+							<img src="brandy.jpg" />
+							<p>
+								Brandy Melville
+							</p>
+						</div>
+
+						<div id="soludos">
+							<img src="soludos.jpg" />
+							<p>
+								Soludos
+							</p>
+						</div>
+
+					</div>
+
+					<div class="column-right1">
+						<div id="hm">
+							<img src="hm.jpg" />
+							<p>
+								H&M
+							</p>
+						</div>
+
+						<div id="lulu">
+							<img src="lululemon.jpg" />
+							<p>
+								Lululemon Athletica
+							</p>
+						</div>
+
+						<div id="jcrew">
+							<img src="jcrew.jpg" />
+							<p>
+								J.Crew
+							</p>
+						</div>
+
+						<div id="americanapparel">
+							<img src="americanapparel.jpg" />
+							<p>
+								American Apparel
+							</p>
+						</div>
+
+
+					</div>
+
+				    <!--<input type="text" id="Search_Text" size="40" />
+				    <input type="submit" value="Submit"
+				    	onclick="buttonsubmit()"/>-->
+				     <!-- <onclick= var screenname="alert(document.getElementById('Search_Text').value)" /> -->
+				</div>
+			</div>
+	</div>
+	
+<!-- create a way so that the name the person wrote before comes back here Hi "user" in the page below-->
+	<div data-role="page" id="foreverquestion">
+		<div class= "name2">
+			<div id="text">
+				<h4><font size="15">Welcome to Forever 21!" says the Clerk!</font></h4>
+				<div id="rand">
+					<p><font size="6" color="black">This is the biggest Forever 21 store you have ever seen! As you walk through the store you see tons of great stuff to buy. In the corner, you see a sign that says "Sale!".</font></p>
+				</div>
+				<div id="walkingperson">
+					<img src="walk.gif">
+				</div>	
+				<div id="next">
+					<button type="button" onclick="#foreverquestion2">Next</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- categories page-->
+	<div data-role="page" id="items23">
+		<div class="name">
+			<div id="text">
+				<div class="column-center1">
+					<li><a href = "#accessory">Accessory</a></li>
+					<li><a href = "#clothes">Clothes</a></li>
+					<li><a href = "#hats">Hats</a></li>
+					<li><a href = "#shoes">Shoes</a></li>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="accessory">
+		<div class="name">
+			<div id="text">
+				<div>
+					<p>working on this<p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="clothes">
+		<div class="name">
+			<div id="text">
+				<div id="clothestext1">
+					<p> You walk by your favorite store and see a beautiful dress on sale.<p>
+				</div>
+				<div id="clothesphoto1">
+					<img src="dresssale.jpg">
+				</div>
+				<div id="next">
+					<button type="button" onclick="#clothes2">Next</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+
+</html>
+ 

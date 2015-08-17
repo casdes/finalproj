@@ -1,0 +1,62 @@
+<html>
+	<head>
+	<script src ="http://cloud.github.com/downloads/processing-js/processing-js/processing-1.4.1.min.js"></script>
+	<!--<script src="https://github.com/jeresig/processing-js"></script>-->
+	<script type = "text/processing" data-processing-target="mycanvas">
+
+	class Character{
+		var width;
+		var height;
+		var xPos;
+		var yPos;
+		//var xSpeed;
+		//var ySpeed;
+		var red
+		var green
+		var blue
+	
+
+		Character(x,y,w,h,color){
+			width = w;
+			height = h;
+			xPos = x;
+			yPos = y;
+			//xSpeed = sx;
+			//ySpeed = sy;
+			red = color[0];
+			green = color[1];
+			blue = color[2];
+		}
+
+		void drawCharacter(){
+			noStroke();
+			fill(red,green,blue);
+			ellipse(xPos,yPos,width,height);
+		}
+		//void drawCharacter(){
+			//var stick = getImage("walk.gif");
+			//loadImage(stick,xPos,yPos,width,height);
+			//image(stick,200,200,109,225);
+		//}
+	}
+
+	void setup(){
+		size(1900,935);
+		background(3,224,187);
+		var gray = [207,202,209];
+		character = new Character (150,150,200,300,gray);
+
+	}
+
+	void draw(){
+		background(3,224,187);
+		character.drawCharacter();
+	}
+
+
+	</script>
+	</head>
+	<body> 
+		<canvas id="mycanvas"></canvas>
+	</body>
+</html>
